@@ -2,13 +2,12 @@ spring:
   cloud:
     config:
       server:
-        server:
-          git:
-            uri:
-            searchPaths: respo
-            username:
-            password:
-        label: master
+        git:
+          uri: https://github.com/bikongyouran/microservicespringclouddemo
+          searchPaths: repo
+          username:
+          password:
+      label: master
 #        native:
 #          search-locations: classpath:/shared
 #  profiles:
