@@ -15,3 +15,7 @@ spring:
     name: config-server
 server:
   port: 8769
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
